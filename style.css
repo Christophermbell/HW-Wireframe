@@ -1,0 +1,102 @@
+
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+body {
+  margin-top: 30px;
+  margin-left:80px;
+  margin-right: 80px;
+  margin-bottom: 100px:;
+  border-top: 30px;
+  border-width: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 90px;
+  padding-left: 30px;
+  font-size: 24px;
+  line-height: 32px;
+  background-color: white;
+}
+
+header {
+  padding: 40px;
+  margin-bottom: 15px;
+  color: #333;
+  background: #ccc;
+}
+
+nav{
+  padding: 40px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+
+#container {
+  height: 250px;
+  width: 100%;
+  clear: both;
+  position: relative;
+  
+}
+
+.section{
+  width: 55%;
+  height: 250px;
+  background-color: #ccc;
+  padding: 20px;
+}
+
+.aside {
+  position: relative;
+  float: right;
+  width: 40%;
+  height: 250px;
+  padding-left: 40px;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.article{
+  position: absolute;
+  clear: both;
+  margin: 5px;
+  width: 50%;
+  height: 180px;
+  background-color: darkgray;
+}
+
+#h1 {
+  width: 95%;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin: 10px;
+  background-color: red;
+  margin-top: 20px;
+}
+
+
+#p {
+  margin-top: 20px;
+  text-align: center;
+  width: 95%;
+  padding-left: 20px;
+  margin: 10px;
+  margin-top:20px;
+  background-color: red;
+}
+
+
+footer {
+  padding: 40px;
+  margin-top:20px;
+  margin-bottom: 50px;
+  clear: both;
+  background: #ccc;
+}
